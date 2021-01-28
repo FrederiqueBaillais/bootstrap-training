@@ -15,6 +15,7 @@
 <body>
 
     <h1>Bootstrap </h1>
+
     <section class="col col-md-12 padding:20px;margin-left:30px">
         <h2>I - Blocs positioning </h2>
         <div class="row text-center megabloc">
@@ -24,24 +25,109 @@
             <div class="col col-md-2 offset-md-2 blocunique">va</div>
         </div>
     </section>
+
     <section class="col col-md-12 padding:20px;margin-left:30px">
         <h2>II - Imbricated elements </h2>
         <div class="row text-center">
-            <nav class="col col-md-4 blocunique">Nouvel</nav>
-            <div class="col col-md-8 megabloc">Exercice
-                <div class="col col-md-3 blocunique">ces</div>
-                <div class="col col-md-4 blocunique">bloc sont tous</div>
-                <div class="col col-md-3 blocunique">dans</div>
-                <div class="col col-md-4 blocunique">la même</div>
-                <div class="col col-md-4 blocunique">div où est</div>
-                <div class="col col-md-4 blocunique">inscrit <strong>"Exercice"</strong>.</div>
-                <div class="col col-md-5 blocunique">Comment</div>
-                <div class="col col-md-2 blocunique">est</div>
-                <div class="col col-md-5 blocunique">ce possible ?</div>
+            <!--attention espace entre nouvel et exercice-->
+            <div class="col col-md-4 h-25 blocunique">Nouvel</div>
+            <div class="col col-lg-8 megabloc"><strong>Exercice</strong>
+                <div class="row text-center">
+                    <div class="col col-md-3 blocunique">ces</div>
+                    <div class="col col-md-6 blocunique">bloc sont tous</div>
+                    <div class="col col-md-3 blocunique">dans</div>
+                </div>
+                <div class="row text-center">
+                    <div class="col col-md-4 blocunique">la même</div>
+                    <div class="col col-md-4 blocunique">div où est</div>
+                    <div class="col col-md-4 blocunique">inscrit <strong>"Exercice"</strong>.</div>
+                </div>
+                <div class="row text-center">
+                    <div class="col col-md-5 blocunique">Comment</div>
+                    <div class="col col-md-2 blocunique">est</div>
+                    <div class="col col-md-5 blocunique">ce possible ?</div>
+                </div>
             </div>
         </div>
     </section>
 
+    <section class="col col-md-12 padding:20px;margin-left:30px">
+        <h2>III - Change elements order </h2>
+        <div class="row text-center megabloc">
+            <div class="col-12 col-md-12 blocvide">12 colonnes</div>
+            <div class="col col-md-2 order-1 offset-md-1 blocunique">Bloc 1 de 2</div>
+            <div class="col col-md-2 order-3 offset-md-2 blocunique">Bloc 2 de 2</div>
+            <div class="col col-md-2 order-2 offset-md-2 blocunique">Bloc 3 de 2</div>
+        </div>
+    </section>
+
+    <section class="col col-md-12 padding:20px;margin-left:30px">
+        <h2>IV - Practice makes good </h2>
+        <div class="row text-center">
+            <div class="col col-md-6 text-center megabloc">
+                <div class="col-12 col-md-12">6 colonnes</div>
+                <div class="row text-center">
+                    <div class="col col-md-4 blocunique">4 colonnes</div>
+                    <div class="col col-md-4 offset-md-4 blocunique">4 colonnes</div>
+                </div>
+            </div>
+            <div class="col col-md-6 text-center megabloc">
+                <div class="col-12 col-md-12">6 colonnes</div>
+                <div class="row text-center">
+                    <div class="col col-md-4 blocunique">4 colonnes</div>
+                    <div class="col col-md-8 blocunique">8 colonnes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="padding:20px;margin-left:30px">
+        <h2>V - Responsive layout </h2>
+        <div class="col col-12 col-md-12">
+            <div class="row text-center">
+                <div class="col col-4 col-md-3 text-center blocunique">
+                    Logo
+                </div>
+                <div class="col col-8 col-md-9 text-center blocunique">
+                    Titre
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col col-12 col-md-12 text-center blocunique">
+                    Hero
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col col-12 col-md-4 text-center blocunique">
+                    Zone 1
+                </div>
+                <div class="col col-12 col-md-4 text-center blocunique">
+                    Zone 2
+                </div>
+                <div class="col col-12 col-md-4 text-center blocunique">
+                    Zone 3
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col col-8 col-md-6 text-center blocunique">
+                    Zone 5
+                </div>
+                <div class="col col-4 col-md-6 text-center blocunique">
+                    Zone 6
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col col-12 col-md-12 text-center blocunique">
+                    Footer
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>

@@ -13,3 +13,8 @@
 .blocvide {
     background-color: #cda5f3;
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
